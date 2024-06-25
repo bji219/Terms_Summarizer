@@ -1,7 +1,7 @@
 # Terms and Conditions Summarizer
 Nobody reads them anyway... Let ChatGPT summarize it for you! Customize the prompt and fine-tune the temperature to change the flavor of the results. 
 Figure out how and to what degree the service you are signing up for is using your data!
-Get a better understanding of the price increases built into the contract you are signing!
+Get a better understanding of the price increases built into the contract you are signing up for!
 
 This project requires ruby and ruby on rails, make sure they're installed correctly on your machine before attempting!
 Anyways, enjoy.
