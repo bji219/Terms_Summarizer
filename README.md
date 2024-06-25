@@ -3,7 +3,8 @@ Nobody reads them anyway... Let ChatGPT summarize it for you! Customize the prom
 Figure out how and to what degree the service you are signing up for is using your data!
 Get a better understanding of the price increases built into the contract you are signing up for!
 
-This project requires ruby and ruby on rails, make sure they're installed correctly on your machine before attempting!
+This project requires ruby and ruby on rails, make sure they're installed correctly on your machine before attempting! Also note: the folder "terms_summarizer_extension" should live in a different folder than the main project folder for your ruby on rails app. Just separate them when you download.
+
 Anyways, enjoy.
 
 ### The Ruby Controller
