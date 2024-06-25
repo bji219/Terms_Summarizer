@@ -3,6 +3,7 @@ Nobody reads them anyway... Let ChatGPT summarize it for you! Customize the prom
 Figure out how and to what degree the service you are signing up for is using your data!
 Get a better understanding of the price increases built into the contract you are signing!
 
+This project requires ruby and ruby on rails, make sure they're installed correctly on your machine before attempting!
 Anyways, enjoy.
 
 ### The Ruby Controller
@@ -39,15 +40,17 @@ end
 ```
 
 ### The Chrome Extension
-Visit the [Chrome Extensions site](chrome://extensions/) and turn on "Developer Mode". Choose "Load Unpacked" and upload the project folder containing the custom Chrome extension. 
-![]()
+Visit the [Chrome Extensions site](chrome://extensions/) and turn on "Developer Mode". Choose "Load Unpacked" and upload the project folder containing the custom Chrome extension. Pin the extension to your most-used (notice the "T" icon lol).
+
+Yes, the html is crap, so customize it to look as cool as you want!
+![](/terms.png)
 
 ### Running the Chrome Extension
-From your command line interface, simple run
+From your command line interface, simply run
 ```ruby
 rails server
 ```
-and everything should be ready to roll!
+and everything should be ready to roll! The extension will send requests to the ruby app, and the ruby app will send responses back to the chrome extension.
 
 ### Safety
 In the summarize controller, be sure to remove this line 
