@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'chrome-extension://hildgbpfdngajjiceenppmbggfcjhfeh'  # Adjust this to the domains you want to allow (e.g., 
+    origins 'chrome-extension://your-extension-id-here'  # Adjust this to the domains you want to allow (e.g., 
 
     resource '*',
       headers: :any,
