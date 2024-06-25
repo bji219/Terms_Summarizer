@@ -1,0 +1,11 @@
+<h1>Summarize Terms and Conditions</h1>
+<%= form_with url: summaries_path, method: :post do %>
+  <div>
+    <%= label_tag :terms, "Terms and Conditions" %><br>
+    <%= text_area_tag :terms, nil, rows: 20, cols: 100 %>
+  </div>
+  <div>
+    <%= submit_tag "Summarize" %>
+  </div>
+<% end %>
+
