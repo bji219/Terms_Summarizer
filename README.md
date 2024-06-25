@@ -1,2 +1,2 @@
-# Terms_Summarizer
+# Terms Summarizer
 Summarize Terms &amp; Conditions in a Chrome Extension
